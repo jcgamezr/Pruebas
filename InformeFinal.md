@@ -8,3 +8,5 @@ roles, terceros, legales, riesgos, vulnerabilidades, amenazas, planeación y pru
    * Protect:
 Control de acceso, data-at-rest, data-in-transit, asset lifecycle, disponibilidad, fugas.
 Integridad, líneas base, cambios, backups, mantenimiento remoto, logs, resiliencia.
+
+#Proyecto Seguridad en Bases de Datos ## Entrega 1
