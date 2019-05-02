@@ -12,4 +12,10 @@ Información, datos, flujo de datos, seguridad, motores de bases de datos, clasi
 roles, terceros, legales, riesgos, vulnerabilidades, amenazas, planeación y pruebas. 
    * Protect:
 Control de acceso, data-at-rest, data-in-transit, asset lifecycle, disponibilidad, fugas.
-Integridad, líneas base, cambios, backups, mantenimiento remoto, logs, resiliencia.
+Integridad, líneas base, cambios, backups, mantenimiento remoto, logs, resiliencia.  
+
+Los documentos que puede encontrar en este repositorio son:  
+1. Informe.md
+2. Base de datos.sql
+3. Flujo de datos.pdf
+4. Riesgos.
