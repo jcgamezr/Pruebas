@@ -1,4 +1,4 @@
-## Seguridad en Bases de Datos basado en Framekork NIST ## 
+## Seguridad en Bases de Datos basado en Framework NIST ## 
 ###### Entrega 1 ######
 Este proyecto pretende revisar el diseño/implementacion/verificacion de los principales aspectos de seguridad en bases de datos basados en el framework de Ciberseguridad de NIST  
 Los principales actividades realizadas fueron:  
