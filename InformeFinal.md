@@ -20,21 +20,4 @@ Los documentos disponibles en este repositorio son:
 3. Flujo de datos.pdf
 4. Riesgos.
 
-## Informe Proyecto Seguridad en Base de Datos ##
-###### Entrega 1 ######
-
-Arango Garcia Jorge Mario  
-Chacon Prieto Jose Alberto  
-Gamez Ramirez Juan Carlos  
-Sierra Nieto Joaquin  
-
-
-
-César Iván Rodríguez Sánchez  
-
-
-UNIVERSIDAD PILOTO DE COLOMBIA  
-FACULTAD DE INGENIERÍA DE SISTEMAS  
-POSTGRADOS  
-BOGOTÁ  
-MAYO 5 DE 2019  
+<p style="text-align: justify;">Este proyecto pretende revisar el diseño/implementación/verificación de los principales aspectos de seguridad en bases de datos, teniendo como referencia el framework de Ciberseguridad de NIST Este proyecto pretende revisar el diseño/implementación/verificación de los principales aspectos de seguridad en bases de datos, teniendo como referencia el framework de Ciberseguridad de NIST</p>
