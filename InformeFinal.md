@@ -20,4 +20,4 @@ Los documentos disponibles en este repositorio son:
 3. Flujo de datos.pdf
 4. Riesgos.
 
-<p style="text-align: justify;">Este proyecto pretende revisar el diseño/implementación/verificación de los principales aspectos de seguridad en bases de datos, teniendo como referencia el framework de Ciberseguridad de NIST Este proyecto pretende revisar el diseño/implementación/verificación de los principales aspectos de seguridad en bases de datos, teniendo como referencia el framework de Ciberseguridad de NIST</p>
+<p style="text-align: justify;">Este proyecto pretende revisar el diseño/implementación/verificación de los principales aspectos de seguridad en bases de datos, teniendo como referencia el framework de Ciberseguridad de NIST Este proyecto pretende revisar el diseño implementación verificación de los principales aspectos de seguridad en bases de datos, teniendo como referencia el framework de Ciberseguridad de NIST</p>
