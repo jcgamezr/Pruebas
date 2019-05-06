@@ -42,7 +42,7 @@ La clasificación de la información en la base de datos se realiza según la in
 * Valor para la organización se determina de acuerdo a la siguiente escala 
    * Bajo    (B)     0<x349.999
    * Medio (M)    350.000<x<4.499.999
-   8 Alto    (A)     5.500.000<x< 50.000.000
+   * Alto    (A)     5.500.000<x< 50.000.000
 
 Modificación; evalúa el impacto en los objetivos estratégicos de la organización cuando se modifica la información contenida en la base de datos, se determina de acuerdo a la siguiente escala 
    * Modificable       (M)    con un  Impacto Bajo
