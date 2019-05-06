@@ -97,6 +97,11 @@ Modificación; evalúa el impacto en los objetivos estratégicos de la organizac
 |SALARIOS|NOMBRE |Texto simple|1581|NC|D |NM|B|
 |SALARIOS|APELLIDO|Texto simple|1581|NC|D |NM|B|
 
+
+
+## CONTROL  ID.GV-4: Governance and risk management processes address cybersecurity risks
+La organización cuenta con un proceso de gestión de riesgos, en donde se encuentran  definidos los siguientes
+
 |CÓDIGO|RIESGO|DESCRIPCIÓN| 
 |------|------|-----------------------------------| 
 |RS-01|DEFINICIÓN DE ROL INADECUADA |El rol de monitoreo borro accidentalmente  data en la base datos de Contratos, impactando los procesos de la organizacion|  
@@ -107,3 +112,17 @@ Modificación; evalúa el impacto en los objetivos estratégicos de la organizac
 |RS-06 |ADMINISTRACIÓN DEFICIENTE DE CONTRASEÑA |El administrador de la base datos de Contratos guarda las credenciales de acceso en archivos de texto plano en el servidor.|
 |RS-08|FALTA DE PROTECCIÓN CONTRA VIRUS Y CÓDIGO MALICIOSO |El servidor de la Base datos no tiene instalada una solución de antivirus|
 |RS-09 |CONTROL DE ACCESO  INADECUADO DE BASE DE DATOS |Todos los usuarios del motor de Base datos de SQL tienen acceso a todos los roles,  cualquier usuario podría borrar una tabla de la BD de Contrato.| 
+
+Se realiza la clasificación de los riesgos para identificar cuáles necesitan atención y corrección con mayor prioridad.
+
+|CÓDIGO|RIESGO|PROBABILIDAD |IMPACTO |RESULTADO | 
+|------|-------------------|---- |---- |-------- | 
+|RS-01|DEFINICIÓN DE ROL INADECUADA |5|3|15 (Alto)|
+|RS-02|FALTA DE CONCIENCIA DE SEGURIDAD |3|4|12 (Alto)|
+|RS-03|FALTA DE CAPACITACIÓN DE TRABAJO|1|5|5 (Moderado)|
+|RS-04|FALTA DE MECANISMOS DE MONITOREO |5|3|15 (Alto)|
+|RS-05|PROTECCIÓN INADECUADA DE TRÁFICO SENSIBLE|3|5|15 (Alto)|
+|RS-06 |ADMINISTRACIÓN DEFICIENTE DE CONTRASEÑA |4|3|12 (Alto)|
+|RS-08|FALTA DE PROTECCIÓN CONTRA VIRUS Y CÓDIGO MALICIOSO |1|4|4 (Bajo)|
+|RS-09 |CONTROL INADECUADO DE BASE DE DATOS |3|5|5 (Moderado)|
+
