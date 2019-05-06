@@ -39,7 +39,7 @@ La clasificación de la información en la base de datos se realiza según la in
 
 * Divulgación; se tienen 2 escenarios posibles en el primero la divulgación no causa peligro para la organización a corto plazo (D) y en el segundo escenario la divulgación tiene un impacto serio en los objetivos estratégicos a largo plazo (ND).
 
-* Valor para la organización se determina de acuerdo a la siguiente escala 
+* Valor para la organización se determina de acuerdo a la siguiente escala economica 
    * Bajo    (B)     0<x349.999
    * Medio (M)    350.000<x<4.499.999
    * Alto    (A)     5.500.000<x< 50.000.000
