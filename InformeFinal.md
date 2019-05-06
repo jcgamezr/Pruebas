@@ -116,7 +116,7 @@ La organización cuenta con un proceso de gestión de riesgos, en donde se encue
 Se realiza la clasificación de los riesgos para identificar cuáles necesitan atención y corrección con mayor prioridad.
 
 |CÓDIGO|RIESGO|PROBABILIDAD |IMPACTO |RESULTADO | 
-|------|-----------------|---- |---- |--------------- | 
+|------|---------------|---- |---- |--------------- | 
 |RS-01|DEFINICIÓN DE ROL INADECUADA |5|3|15 (Alto)|
 |RS-02|FALTA DE CONCIENCIA DE SEGURIDAD |3|4|12 (Alto)|
 |RS-03|FALTA DE CAPACITACIÓN DE TRABAJO|1|5|5 (Moderado)|
