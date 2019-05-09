@@ -126,3 +126,6 @@ Se realiza la clasificación de los riesgos para identificar cuáles necesitan a
 |RS-08|FALTA DE PROTECCIÓN CONTRA VIRUS Y CÓDIGO MALICIOSO |1|4|4 (Bajo)|
 |RS-09 |CONTROL INADECUADO DE BASE DE DATOS |3|5|5 (Moderado)|
 
+
+
+## CONTROL  ID.GV-4: ID.RA-3: Threats, both internal and external, are identified and documented
