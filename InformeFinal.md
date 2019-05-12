@@ -26,12 +26,83 @@ Los siguientes perfiles de configuración están definidos por las siguientes ca
 |---------|---------------------------------|-----|
 |4.1 |'Auditing' is set to 'On' (Scored) |L1|
 
-4.2 'AuditActionGroups' in 'auditing' policy for a SQL server is set properly (Scored) L1
-4.3 'Auditing' Retention is 'greater than 90 days' (Scored) L1
-4.4 'Advanced Data Security' on a SQL server is set to 'On' (Scored) L2
-4.5 'Threat Detection types' is set to 'All' (Scored) L2
-4.6 'Send alerts to' is set (Scored) L2
-4.7 'Email service and co-administrators' is 'Enabled' (Scored) L2
-4.8 Ensure that Azure Active Directory Admin is configured (Scored) L1
-4.9 Ensure that 'Data encryption' is set to 'On' on a SQL Database (Scored) L1
-4.10 Ensure SQL server's TDE protector is encrypted with BYOK (Use your own key) (Scored) L2
+|VERIFICACION|REMEDIACION|
+|------------------------------------------|---------------------------------------------|
+|![Image of Yaktocat]() |![Image of Yaktocat]()|
+
+|**ÍTEM** | **DESCRIPCION** | **NIVEL** |
+|---------|---------------------------------|-----|
+|4.2 |'AuditActionGroups' in 'auditing' policy for a SQL server is set properly (Scored)|L1|
+
+|VERIFICACION|REMEDIACION|
+|------------------------------------------|---------------------------------------------|
+|![Image of Yaktocat]() |![Image of Yaktocat]()|
+
+|**ÍTEM** | **DESCRIPCION** | **NIVEL** |
+|---------|---------------------------------|-----|
+|4.3 |'Auditing' Retention is 'greater than 90 days' (Scored)|L1|
+
+|VERIFICACION|REMEDIACION|
+|------------------------------------------|---------------------------------------------|
+|![Image of Yaktocat]() |![Image of Yaktocat]()|
+
+|**ÍTEM** | **DESCRIPCION** | **NIVEL** |
+|---------|---------------------------------|-----|
+|4.4|'Advanced Data Security' on a SQL server is set to 'On' (Scored)|L1|
+
+|VERIFICACION|REMEDIACION|
+|------------------------------------------|---------------------------------------------|
+|![Image of Yaktocat]() |![Image of Yaktocat]()|
+
+|**ÍTEM** | **DESCRIPCION** | **NIVEL** |
+|---------|---------------------------------|-----|
+|4.5 |'Threat Detection types' is set to 'All'|L1|
+
+|VERIFICACION|REMEDIACION|
+|------------------------------------------|---------------------------------------------|
+|![Image of Yaktocat]() |![Image of Yaktocat]()|
+
+|**ÍTEM** | **DESCRIPCION** | **NIVEL** |
+|---------|---------------------------------|-----|
+|4.6 |'Send alerts to' is set (Scored)|L1|
+
+|VERIFICACION|REMEDIACION|
+|------------------------------------------|---------------------------------------------|
+|![Image of Yaktocat]() |![Image of Yaktocat]()|
+
+|**ÍTEM** | **DESCRIPCION** | **NIVEL** |
+|---------|---------------------------------|-----|
+|4.7 |'Email service and co-administrators' is 'Enabled' (Scored)|L1|
+
+|VERIFICACION|REMEDIACION|
+|------------------------------------------|---------------------------------------------|
+|![Image of Yaktocat]() |![Image of Yaktocat]()|
+
+|**ÍTEM** | **DESCRIPCION** | **NIVEL** |
+|---------|---------------------------------|-----|
+|4.8 |Ensure that Azure Active Directory Admin is configured|L1|
+
+|VERIFICACION|REMEDIACION|
+|------------------------------------------|---------------------------------------------|
+|![Image of Yaktocat]() |![Image of Yaktocat]()|
+
+|**ÍTEM** | **DESCRIPCION** | **NIVEL** |
+|---------|---------------------------------|-----|
+|4.9 |Ensure that 'Data encryption' is set to 'On' on a SQL Database (Scored)|1|
+
+|VERIFICACION|REMEDIACION|
+|------------------------------------------|---------------------------------------------|
+|![Image of Yaktocat]() |![Image of Yaktocat]()|
+
+|**ÍTEM** | **DESCRIPCION** | **NIVEL** |
+|---------|---------------------------------|-----|
+|4.10 |Ensure SQL server's TDE protector is encrypted with BYOK (Use your own key) (Scored) |2|
+
+|VERIFICACION|REMEDIACION|
+|------------------------------------------|---------------------------------------------|
+|![Image of Yaktocat]() |![Image of Yaktocat]()|
+
+
+
+
+
