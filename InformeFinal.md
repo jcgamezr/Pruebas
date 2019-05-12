@@ -29,76 +29,6 @@ Con el objetivo de tener un contexto amplio que permita definir/implementar/revi
 * La base de datos debe contener datos sensibles, son aquellos que pueden afectar la intimidad del titular y/o generar discriminación,  tales como aquellos que revelen la orientación política, las orientacion religiosa, la pertenencia a sindicatos, tambien los relativos a la salud, a la vida sexual, y los datos biométricos.
 * La base de datos debe contener datos públicos, hace referencia a los datos relativos al estado civil de las personas, profesión y a su calidad de comerciante o de servidor público.
 
-## CONTROL ID.AM-5: Resources are prioritized based on their classification, criticality, and business value
-
-La clasificación de la información en la base de datos se realiza según la información contenida en los campos de cada tabla en función de la confidencialidad, integridad, disponibilidad, requisitos legales aplicables, criticidad, divulgación, modificación	y valor para la organización. 
-
-* Requisitos legales aplicables; hace referencia a la aplicabilidad de leyes o normas que protegen la información (1581, 052, 042, 1273).
-
-* Criticidad; considera la información contenida en el campo como critica cuando es personal, semiprivada o sensible(C) y cuando la información es publica es considerada como no critica(NC). 
-
-* Divulgación; se tienen 2 escenarios posibles en el primero la divulgación no causa peligro para la organización a corto plazo (D) y en el segundo escenario la divulgación tiene un impacto serio en los objetivos estratégicos a largo plazo (ND).
-
-* Valor para la organización se determina de acuerdo a la siguiente escala economica 
-   * Bajo    (B)     0<x349.999
-   * Medio (M)    350.000<x<4.499.999
-   * Alto    (A)     5.500.000<x< 50.000.000
-
-Modificación; evalúa el impacto en los objetivos estratégicos de la organización cuando se modifica la información contenida en la base de datos, se determina de acuerdo a la siguiente escala 
-   * Modificable       (M)    con un  Impacto Bajo
-   * No Modificable  (NM) con un Impacto Alto
-   
-|TABLA|CAMPO|Tipo|Requisitos Legales|Criticidad|Divulgacion|Modificacion|Valor|
-|-----|-----|----|------------------|----------|-----------|------------|-----|
-|CONTRATOS|SUJETO DE CONTROL|Texto simple|N/A|NC|D |M |B|
-|CONTRATOS|EVENTO|Texto simple|N/A|NC|D |M |B|
-|CONTRATOS|TIPO DE REGISTRO|Texto simple|N/A|NC|D |M |B|
-|CONTRATOS|CÓDIGO CONTRATO|Texto simple|N/A|NC|ND|NM|M|
-|CONTRATOS|IDENTIFICACIÓN CONTRATISTA|Texto simple|N/A|C |D |M |B|
-|CONTRATOS|NOMBRE CONTRATISTA|Texto simple|N/A|C |D |M |B|
-|CONTRATOS|CÓDIGO DEL PROYECTO|Texto simple|N/A|NC|ND|NM|M|
-|CONTRATOS|NOMBRE DEL PROYECTO|Texto simple|N/A|NC|ND|NM|M|
-|CONTRATOS|SECTOR DEL PROYECTO|Texto simple|N/A|NC|D |M |B|
-|CONTRATOS|VALOR DEL PROYECTO|Texto simple|1581|NC|ND|NM|A|
-|CONTRATOS|VALOR EJECUTADO DEL PROYECTO|Texto simple|1581|NC|ND|NM|A|
-|CONTRATOS|OBJETO DEL CONTRATO|Texto simple|N/A|NC|ND|NM|M|
-|CONTRATOS|FECHA SUSCRIPCIÓN|Texto simple|N/A|NC|ND|NM|M|
-|CONTRATOS|FECHA INICIO|Texto simple|N/A|NC|ND|NM|M|
-|CONTRATOS|PLAZO ESTIMADO|Número|N/A|NC|ND|NM|M|
-|CONTRATOS|VALOR CONTRATO|Texto simple|1581|NC|D |NM|A|
-|CONTRATOS|PROCESO DE CONTRATACIÓN|Texto simple|N/A|NC|D |M |B|
-|CONTRATOS|TIPOLOGÍA|Texto simple|N/A|NC|D |M |B|
-|CONTRATOS|IDENTIFICACIÓN INTERVENTOR|Número|N/A|NC|D |NM|B|
-|CONTRATOS|NOMBRE DEL INTERVENTOR|Texto simple|N/A|C |D |NM|B|
-|CONTRATOS|TIPO INTERVENTOR|Texto simple|N/A|NC|D |M |B|
-|CONTRATOS|No CONTRATO INTERVENTOR|Texto simple|N/A|NC|D |M |B|
-|CONTRATOS|DISPONIBILIDADES PRESUPUESTALES|Texto simple|N/A|NC|D |M |A|
-|CONTRATOS|REGISTROS PRESUPUESTALES|Número|N/A|NC|D |M |A|
-|COTROL_ACCESO|IDENTIFICACIÓN CONTRATISTA|Texto simple|1581|C |D |NM|B|
-|COTROL_ACCESO|HUELLA|Texto simple|1581|C |D |NM|B|
-|DATOS_CONTRATISTAS|IDENTIFICACIÓN CONTRATISTA|Texto simple|1581|C |ND|NM|M|
-|DATOS_CONTRATISTAS|DIRECCION CONTRATISTA|Texto simple|1581|C |ND|NM|M|
-|DATOS_CONTRATISTAS|TELEFONO CONTRATISTA|Texto simple|1581|C |ND|NM|M|
-|DATOS_CONTRATISTAS|CELULAR CONTRATISTA|Texto simple|1581|C |ND|NM|M|
-|DATOS_CONTRATISTAS|CORREO CONTRATISTA|Texto simple|1581|C |ND|NM|M|
-|DATOS_CONTRATISTAS|NOMBRE CONTRATISTA|Texto simple|1581|C |ND|NM|M|
-|EMPLEADOS|NOMBRE|Texto simple|1581|NC|D |NM|B|
-|EMPLEADOS|APELLIDO|Texto simple|1581|NC|D |NM|B|
-|EMPLEADOS|TIPO DE DOCUMENTO|Texto simple|1581|NC|D |NM|B|
-|EMPLEADOS|IDENTIFICACION|Texto simple|1581|C |D |NM|B|
-|EMPLEADOS|FECHA DE NACIMIENTO|Texto simple|1581|C |D |NM|B|
-|SALARIOS|SALARIO DEVENGADO|Texto simple|1581|C |ND|NM|M|
-|SALARIOS|DEDUCCIONES|Texto simple|1581|C |ND|NM|M|
-|SALARIOS|PRIMAS EXTRAS|Texto simple|1581|C |ND|NM|M|
-|SALARIOS|BONO DE MOVILIDAD|Texto simple|1581|C |ND|NM|M|
-|SALARIOS|COMISIONES|Texto simple|1581|C |ND|NM|M|
-|SALARIOS|TIPO DE DOCUMENTO|Texto simple|1581|NC|D |NM|B|
-|SALARIOS|IDENTIFICACION|Texto simple|1581|C |D |NM|B|
-|SALARIOS|NOMBRE |Texto simple|1581|NC|D |NM|B|
-|SALARIOS|APELLIDO|Texto simple|1581|NC|D |NM|B|
-
-
-
 ## CONTROL  ID.GV-4: Governance and risk management processes address cybersecurity risks
 La organización cuenta con un proceso de gestión de riesgos, en donde se encuentran  definidos los siguientes
 
@@ -128,4 +58,9 @@ Se realiza la clasificación de los riesgos para identificar cuáles necesitan a
 
 
 
-## CONTROL  ID.GV-4: ID.RA-3: Threats, both internal and external, are identified and documented
+## CONTROL ID.RA-3: Threats, both internal and external, are identified and documented
+## CONTROL PR.AC-4: Access permissions and authorizations are managed
+## CONTROL PR.DS-2: Data-in-transit is protected
+## CONTROL PR.DS-2: PR.IP-1: A baseline configuration of information technology systems is created and maintained
+
+
