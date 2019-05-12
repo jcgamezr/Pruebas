@@ -21,83 +21,83 @@ Los siguientes perfiles de configuración están definidos por las siguientes ca
       + actúa como defensa en medida profunda
       + puede inhibir negativamente la utilidad o el rendimiento de la tecnología.  
       
-|**ÍTEM** | **DESCRIPCION** | **NIVEL** |
-|---------|---------------------------------|-----|
-|4.1 |'Auditing' is set to 'On' (Scored) |L1|
+|**ÍTEM** | **DESCRIPCIÓN** | **NIVEL** |**DETALLE**|
+|---------|---------------------------------|-----|---------------------------------|
+|4.1 |'Auditing' is set to 'On' (Scored) |L1|La plataforma Azure permite crear un servidor SQL como un servicio. La habilitación de la auditoría en el nivel del servidor garantiza que todas las bases de datos existentes y creadas recientemente en la instancia del servidor SQL sean auditadas.|
 
-|VERIFICACION|REMEDIACION|
+|VERIFICACIÓN|REMEDIACIÓN|
 |------------------------------------------|---------------------------------------------|
-|![Image of Yaktocat]() |![Image of Yaktocat]()|
+|![Image of Yaktocat](41a) |![Image of Yaktocat](41b)|
 
-|**ÍTEM** | **DESCRIPCION** | **NIVEL** |
-|---------|---------------------------------|-----|
-|4.2 |'AuditActionGroups' in 'auditing' policy for a SQL server is set properly (Scored)|L1|
+|**ÍTEM** | **DESCRIPCIÓN** | **NIVEL** |**DETALLE**|
+|---------|---------------------------------|-----|---------------------------------|
+|4.2 |'AuditActionGroups' in 'auditing' policy for a SQL server is set properly (Scored)|L1|Para capturar todas las actividades críticas realizadas en servidores SQL y bases de datos dentro de servidores SQL, la auditoría debe estar configurada para capturar los'AuditActionGroups' apropiados SUCCESSFUL_DATABASE_AUTHENTICATION_GROUP,FAILED_DATABASE_AUTHENTICATION_GROUP, BATCH_COMPLETED_GROUP.|
 
-|VERIFICACION|REMEDIACION|
-|------------------------------------------|---------------------------------------------|
-|![Image of Yaktocat]() |![Image of Yaktocat]()|
+|VERIFICACIÓN|
+|------------------------------------------|
+|![Image of Yaktocat](42a) |
 
-|**ÍTEM** | **DESCRIPCION** | **NIVEL** |
-|---------|---------------------------------|-----|
+|**ÍTEM** | **DESCRIPCIÓN** | **NIVEL** |**DETALLE**|
+|---------|---------------------------------|-----|---------------------------------|
 |4.3 |'Auditing' Retention is 'greater than 90 days' (Scored)|L1|
 
-|VERIFICACION|REMEDIACION|
+|VERIFICACIÓN|REMEDIACIÓN|
 |------------------------------------------|---------------------------------------------|
 |![Image of Yaktocat]() |![Image of Yaktocat]()|
 
-|**ÍTEM** | **DESCRIPCION** | **NIVEL** |
-|---------|---------------------------------|-----|
+|**ÍTEM** | **DESCRIPCIÓN** | **NIVEL** |**DETALLE**|
+|---------|---------------------------------|-----|---------------------------------|
 |4.4|'Advanced Data Security' on a SQL server is set to 'On' (Scored)|L1|
 
-|VERIFICACION|REMEDIACION|
+|VERIFICACIÓN|REMEDIACIÓN|
 |------------------------------------------|---------------------------------------------|
 |![Image of Yaktocat]() |![Image of Yaktocat]()|
 
-|**ÍTEM** | **DESCRIPCION** | **NIVEL** |
-|---------|---------------------------------|-----|
+|**ÍTEM** | **DESCRIPCIÓN** | **NIVEL** |**DETALLE**|
+|---------|---------------------------------|-----|---------------------------------|
 |4.5 |'Threat Detection types' is set to 'All'|L1|
 
-|VERIFICACION|REMEDIACION|
+|VERIFICACIÓN|REMEDIACIÓN|
 |------------------------------------------|---------------------------------------------|
 |![Image of Yaktocat]() |![Image of Yaktocat]()|
 
-|**ÍTEM** | **DESCRIPCION** | **NIVEL** |
-|---------|---------------------------------|-----|
+|**ÍTEM** | **DESCRIPCIÓN** | **NIVEL** |**DETALLE**|
+|---------|---------------------------------|-----|---------------------------------|
 |4.6 |'Send alerts to' is set (Scored)|L1|
 
-|VERIFICACION|REMEDIACION|
+|VERIFICACIÓN|REMEDIACIÓN|
 |------------------------------------------|---------------------------------------------|
 |![Image of Yaktocat]() |![Image of Yaktocat]()|
 
-|**ÍTEM** | **DESCRIPCION** | **NIVEL** |
-|---------|---------------------------------|-----|
+|**ÍTEM** | **DESCRIPCIÓN** | **NIVEL** |**DETALLE**|
+|---------|---------------------------------|-----|---------------------------------|
 |4.7 |'Email service and co-administrators' is 'Enabled' (Scored)|L1|
 
-|VERIFICACION|REMEDIACION|
+|VERIFICACIÓN|REMEDIACIÓN|
 |------------------------------------------|---------------------------------------------|
 |![Image of Yaktocat]() |![Image of Yaktocat]()|
 
-|**ÍTEM** | **DESCRIPCION** | **NIVEL** |
-|---------|---------------------------------|-----|
+|**ÍTEM** | **DESCRIPCIÓN** | **NIVEL** |**DETALLE**|
+|---------|---------------------------------|-----|---------------------------------|
 |4.8 |Ensure that Azure Active Directory Admin is configured|L1|
 
-|VERIFICACION|REMEDIACION|
+|VERIFICACIÓN|REMEDIACIÓN|
 |------------------------------------------|---------------------------------------------|
 |![Image of Yaktocat]() |![Image of Yaktocat]()|
 
-|**ÍTEM** | **DESCRIPCION** | **NIVEL** |
-|---------|---------------------------------|-----|
+|**ÍTEM** | **DESCRIPCIÓN** | **NIVEL** |**DETALLE**|
+|---------|---------------------------------|-----|---------------------------------|
 |4.9 |Ensure that 'Data encryption' is set to 'On' on a SQL Database (Scored)|1|
 
-|VERIFICACION|REMEDIACION|
+|VERIFICACIÓN|REMEDIACIÓN|
 |------------------------------------------|---------------------------------------------|
 |![Image of Yaktocat]() |![Image of Yaktocat]()|
 
-|**ÍTEM** | **DESCRIPCION** | **NIVEL** |
-|---------|---------------------------------|-----|
+|**ÍTEM** | **DESCRIPCIÓN** | **NIVEL** |**DETALLE**|
+|---------|---------------------------------|-----|---------------------------------|
 |4.10 |Ensure SQL server's TDE protector is encrypted with BYOK (Use your own key) (Scored) |2|
 
-|VERIFICACION|REMEDIACION|
+|VERIFICACIÓN|REMEDIACIÓN|
 |------------------------------------------|---------------------------------------------|
 |![Image of Yaktocat]() |![Image of Yaktocat]()|
 
