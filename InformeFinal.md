@@ -63,43 +63,43 @@ Los siguientes perfiles de configuración están definidos por las siguientes ca
 
 |**ÍTEM** | **DESCRIPCIÓN** | **NIVEL** |**DETALLE**|
 |---------|---------------------------------|-----|---------------------------------|
-|4.6 |'Send alerts to' is set (Scored)|L1|
+|4.6 |'Send alerts to' is set (Scored)|2|Proporcionar la dirección de correo electrónico para recibir alertas garantiza que cualquier detección de anomalías se informan lo antes posible, lo que aumenta la probabilidad de mitigar cualquier riesgo potencial.|
 
 |VERIFICACIÓN|REMEDIACIÓN|
 |------------------------------------------|---------------------------------------------|
-|![Image of Yaktocat]() |![Image of Yaktocat]()|
+|![Image of Yaktocat](46a) |![Image of Yaktocat](46b)|
 
 |**ÍTEM** | **DESCRIPCIÓN** | **NIVEL** |**DETALLE**|
 |---------|---------------------------------|-----|---------------------------------|
-|4.7 |'Email service and co-administrators' is 'Enabled' (Scored)|L1|
+|4.7 |'Email service and co-administrators' is 'Enabled' (Scored)|2|Habilitar a los coadministradores para recibir alertas de seguridad del servidor SQL ayuda a informar ante cualquier riesgo potencial|
 
-|VERIFICACIÓN|REMEDIACIÓN|
-|------------------------------------------|---------------------------------------------|
-|![Image of Yaktocat]() |![Image of Yaktocat]()|
-
-|**ÍTEM** | **DESCRIPCIÓN** | **NIVEL** |**DETALLE**|
-|---------|---------------------------------|-----|---------------------------------|
-|4.8 |Ensure that Azure Active Directory Admin is configured|L1|
-
-|VERIFICACIÓN|REMEDIACIÓN|
-|------------------------------------------|---------------------------------------------|
-|![Image of Yaktocat]() |![Image of Yaktocat]()|
+|VERIFICACIÓN|
+|-----------------------------------------------------------------------------------|
+|![Image of Yaktocat](47a) |
 
 |**ÍTEM** | **DESCRIPCIÓN** | **NIVEL** |**DETALLE**|
 |---------|---------------------------------|-----|---------------------------------|
-|4.9 |Ensure that 'Data encryption' is set to 'On' on a SQL Database (Scored)|1|
+|4.8 |Ensure that Azure Active Directory Admin is configured|1|Use la autenticación de Active Directory de Azure para la autenticación con la base de datos SQL.|
 
-|VERIFICACIÓN|REMEDIACIÓN|
-|------------------------------------------|---------------------------------------------|
-|![Image of Yaktocat]() |![Image of Yaktocat]()|
+|VERIFICACIÓN|
+|-----------------------------------------------------------------------------------|
+|![Image of Yaktocat](48a) |
 
 |**ÍTEM** | **DESCRIPCIÓN** | **NIVEL** |**DETALLE**|
 |---------|---------------------------------|-----|---------------------------------|
-|4.10 |Ensure SQL server's TDE protector is encrypted with BYOK (Use your own key) (Scored) |2|
+|4.9 |Ensure that 'Data encryption' is set to 'On' on a SQL Database (Scored)|1|El cifrado de datos transparente de la Base de datos SQL de Azure ayuda a proteger contra la amenaza de actividad maliciosa al realizar el cifrado y descifrado en tiempo real de la base de datos, las copias de seguridad asociadas y los archivos de registro de transacciones sin necesidad de cambios en la aplicación.|
 
-|VERIFICACIÓN|REMEDIACIÓN|
-|------------------------------------------|---------------------------------------------|
-|![Image of Yaktocat]() |![Image of Yaktocat]()|
+|VERIFICACIÓN|
+|-----------------------------------------------------------------------------------|
+|![Image of Yaktocat](49a) |
+
+|**ÍTEM** | **DESCRIPCIÓN** | **NIVEL** |**DETALLE**|
+|---------|---------------------------------|-----|---------------------------------|
+|4.10 |Ensure SQL server's TDE protector is encrypted with BYOK (Use your own key) (Scored) |2|Sobre la base de las necesidades empresariales o la criticidad de los datos / bases de datos alojados en un servidor SQL, se recomienda que el protector de TDE esté encriptado por una clave administrada por el propietario de los datos (BYOK).|
+
+|VERIFICACIÓN|
+|-----------------------------------------------------------------------------------|
+|![Image of Yaktocat](410a) |
 
 
 
