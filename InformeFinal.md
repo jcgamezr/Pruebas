@@ -31,7 +31,7 @@ Los siguientes perfiles de configuración están definidos por las siguientes ca
 
 |**ÍTEM** | **DESCRIPCIÓN** | **NIVEL** |**DETALLE**|
 |---------|---------------------------------|-----|---------------------------------|
-|4.2 |'AuditActionGroups' in 'auditing' policy for a SQL server is set properly (Scored)|L1|Para capturar todas las actividades críticas realizadas en servidores SQL y bases de datos dentro de servidores SQL, la auditoría debe estar configurada para capturar los'AuditActionGroups' apropiados SUCCESSFUL_DATABASE_AUTHENTICATION_GROUP,FAILED_DATABASE_AUTHENTICATION_GROUP, BATCH_COMPLETED_GROUP.|
+|4.2 |'AuditActionGroups' in 'auditing' policy for a SQL server is set properly (Scored)|L1|Para capturar todas las actividades críticas realizadas en servidores SQL y bases de datos dentro de servidores SQL, la auditoría debe estar configurada para capturar los 'AuditActionGroups' apropiados SUCCESSFUL DATABASE AUTHENTICATION GROUP,FAILED DATABASE AUTHENTICATION GROUP, BATCH COMPLETED GROUP.|
 
 |VERIFICACIÓN|
 |------------------------------------------|
