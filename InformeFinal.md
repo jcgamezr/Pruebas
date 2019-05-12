@@ -10,14 +10,14 @@ SELECT SERVERPROPERTY('productversion'), SERVERPROPERTY ('productlevel'), SERVER
 El motor de base de datos es SQL Azure RTM version 12.0.2008. RTM (Release To Manufacturing) indica  la versión final.
 Dentro de las guías de aseguramiento de CIS, se encontró un manual específico para Microsoft Azure Foundations v1.1.0 publicado el  15 de febrero de 2019. La sección 4 está dedicada a recomendaciones de seguridad para configurar en las bases de datos.  
 
-# Definiciones de perfil
+### Definiciones de perfil
 Los siguientes perfiles de configuración están definidos por este Benchmark:
- Nivel 1
+#### Nivel 1
 Los artículos en este perfil tienen la intención de:
-o sea práctico y prudente;
-o proporcionar un beneficio de seguridad claro; y
-o no inhibir la utilidad de la tecnología más allá de los medios aceptables.
- Nivel 2
+##### sea práctico y prudente;
+##### proporcionar un beneficio de seguridad claro; y
+##### no inhibir la utilidad de la tecnología más allá de los medios aceptables.
+#### Nivel 2
 Este perfil extiende el perfil "Nivel 1". Los artículos en este perfil exhiben uno o más de
 Las siguientes características:
 o están destinados a entornos o casos de uso donde la seguridad es primordial
