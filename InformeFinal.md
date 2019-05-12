@@ -20,10 +20,12 @@ Los siguientes perfiles de configuración están definidos por las siguientes ca
   + Nivel 2
       + están destinados a entornos o casos de uso donde la seguridad es primordial
       + actúa como defensa en medida profunda
-      + puede inhibir negativamente la utilidad o el rendimiento de la tecnología.
+      + puede inhibir negativamente la utilidad o el rendimiento de la tecnología.  
+      
 |**ÍTEM** | **DESCRIPCION** | **NIVEL** |
-|---------|-----------------|-----------|
+|---------|---------------------------------|-----|
 |4.1 |'Auditing' is set to 'On' (Scored) |L1|
+
 4.2 'AuditActionGroups' in 'auditing' policy for a SQL server is set properly (Scored) L1
 4.3 'Auditing' Retention is 'greater than 90 days' (Scored) L1
 4.4 'Advanced Data Security' on a SQL server is set to 'On' (Scored) L2
