@@ -13,7 +13,8 @@ Dentro de las guías de aseguramiento de CIS, se encontró un manual específico
 ### Definiciones de perfil
 Los siguientes perfiles de configuración están definidos por este Benchmark:  
   •	 Nivel 1  
-Los artículos en este perfil tienen la intención de:
+Los artículos en este perfil tienen la intención de:  
+
       • sea práctico y prudente.  
       •	 proporcionar un beneficio de seguridad claro.     
       •	 no inhibir la utilidad de la tecnología más allá de los medios aceptables.  
