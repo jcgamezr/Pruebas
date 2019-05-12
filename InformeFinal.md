@@ -11,17 +11,15 @@ El motor de base de datos es SQL Azure RTM version 12.0.2008. RTM (Release To Ma
 Dentro de las guías de aseguramiento de CIS, se encontró un manual específico para Microsoft Azure Foundations v1.1.0 publicado el  15 de febrero de 2019. La sección 4 está dedicada a recomendaciones de seguridad para configurar en las bases de datos.  
 
 ### Definiciones de perfil
-Los siguientes perfiles de configuración están definidos por este Benchmark:  
+Los siguientes perfiles de configuración están definidos por las siguientes caracteristicas:  
   +	 Nivel 1    
       + sea práctico y prudente.  
       +	 proporcionar un beneficio de seguridad claro.       
       +	 no inhibir la utilidad de la tecnología más allá de los medios aceptables.  
  
-### Nivel 2
-Este perfil extiende el perfil "Nivel 1". Los artículos en este perfil exhiben uno o más de
-Las siguientes características:
-o están destinados a entornos o casos de uso donde la seguridad es primordial
-o actúa como defensa en medida profunda
-o puede inhibir negativamente la utilidad o el rendimiento de la tecnología.
+  + Nivel 2
+      + están destinados a entornos o casos de uso donde la seguridad es primordial
+      + actúa como defensa en medida profunda
+      + puede inhibir negativamente la utilidad o el rendimiento de la tecnología.
 
 
